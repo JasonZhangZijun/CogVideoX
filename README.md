@@ -1,4 +1,5 @@
 # CogVideoX with Causal Attention Mask
+**Name:** Zhang Zijun   **Student ID:** A69036367   **Date:** February 15, 2025  
 
 This repository is a modified version of **CogVideoX** designed to test causal attention mechanisms in video generation models. 
 
