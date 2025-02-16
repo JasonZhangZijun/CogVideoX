@@ -6,8 +6,8 @@ master_ip
 logs/
 *.DS_Store
 .idea
-output*
-test*
+# output*
+# test*
 venv
 **/.swp
 **/*.log
@@ -20,7 +20,7 @@ venv
 **/finetune/Disney-*
 **/wandb
 **/results
-**/*.mp4
+# **/*.mp4
 **/validation_set
 CogVideo-1.0
 finetune_output/

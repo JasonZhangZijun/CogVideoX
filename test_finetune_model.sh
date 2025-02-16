@@ -1,0 +1,12 @@
+python inference/cli_demo.py \
+    --prompt "An astronaut hatching from an egg, on the surface of the moon, the darkness and depth of space realised in the background. High quality, ultrarealistic detail and breath-taking movie-like camera shot." \
+    --model_path "/home/zijun/workspace/CogVideo/checkpoints/CogVideoX-5B-I2V" \
+    --lora_path "/home/zijun/workspace/CogVideo/finetune_output/checkpoint-9" \
+    --generate_type "i2v" \
+    --image_or_video_path "/home/zijun/workspace/CogVideo/inference/astronaut.jpg" \
+    --output_path "./output_i2v_finetune.mp4" \
+    --num_inference_steps 50 \
+    --num_frames 81 \
+    --guidance_scale 6.0 \
+    --fps 16 \
+    --dtype "float16"
